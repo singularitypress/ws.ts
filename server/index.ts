@@ -3,8 +3,8 @@ import Websocket from "ws";
 import http from "http";
 
 const port = process.env.PORT || 3000;
-const server = http.createServer(express);
 const app = express();
+const server = http.createServer(express);
 const WebsocketServer = new Websocket.Server({ server });
 
 app.use(express.static("public"));
