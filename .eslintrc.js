@@ -39,5 +39,7 @@ module.exports = {
     ],
     "@typescript-eslint/explicit-member-accessibility": 2,
     "@typescript-eslint/indent": ["error", 2],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
   },
 };
