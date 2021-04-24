@@ -1,5 +1,18 @@
 # Websockets
 
+## Getting Started
+
+### Developing
+
+- Start the server with `npm run dev:server`
+- Watch client-side with `npm run dev:client`
+
+### Building
+
+- Build the server and client, then run with `npm start`.
+- To build server only, `npm run build:server`
+- to build client only, `npm run build:client`
+
 ## Server-side
 
 ### 1. Our Imports

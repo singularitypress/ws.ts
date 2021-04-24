@@ -9,7 +9,7 @@
     "build:server": "node esbuild.js --mode=production --platform=node",
     "dev:client": "nodemon --watch ./client/* --ext 'ts,json,tsx' --exec 'node esbuild.js --mode=dev --platform=browser'",
     "build:client": "node esbuild.js --mode=production --platform=browser",
-    "start": "npm run build:server && node dist/bundle.js"
+    "start": "npm run build:server && npm run build:client && node dist/bundle.js"
   },
   "repository": {
     "type": "git",
